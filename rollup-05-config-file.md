@@ -30,6 +30,18 @@ export default [
     }
   ];
 ```
+
+
+| format	| description |
+|---|---|
+| iife	| output an Immediately Invoked Function Expression (function () { ... }()); |
+| es	| standard ES6 |
+| cjs	| CommonJS for Node.js |
+| umd	| Universal Module Definition |
+| amd	| Asynchronous Module Definition |
+| system	| SystemJS modules |
+
+
 다음과 같이 빌드한다. 
 ```
 yarn rollup -c 

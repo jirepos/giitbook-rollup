@@ -10,4 +10,5 @@
   * [UMD bundle 빌드](rollup-06-build-umd.md)
   * [typescript 빌드](rollup-07-typescript.md)
   * [Plugins 사용](rollup-08-plugin.md)
+  * [동적 임포트와 코드 분할](rollup-09-split.md)
   

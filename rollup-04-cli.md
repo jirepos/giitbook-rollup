@@ -43,3 +43,24 @@ function main () {
 
 module.exports = main;
 ```
+
+
+## Rollup.js Options and Flags
+명령줄 옵션 중 중요한 것만. 
+
+
+* --help (or -h): display Rollup.js help
+* --version (or -v): display the Rollup.js version number
+* --input <filename> (or -i): specify the entry script. This is not necessary because the file is usually defined as the first option.
+* --file <output> (or -o): the bundled file name. When omitted, the bundle is output to stdout.
+* --format <type> (or -f): the JavaScript bundle format:
+* --environment <values>: set one or more comma-separated environment variables, e.g. --environment NODE_ENV:development,VAR1,VAR2:abc which sets NODE_ENV to development, VAR1 to true, and VAR2 to abc.
+* --sourcemap: create a source map so you can reference the original source files in browser DevTools. The bundled file will link to a .map file in build folder, e.g. build/bundle.js.map.Use --sourcemap inline to define an inline source map within the bundle.
+* --watch (or -w): watch for source file changes during development and bundle automatically.The screen clears when a change triggers a re-build but you can disable this with --no-watch.clearScreen
+
+
+
+
+## 참고 
+[The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler](https://blog.openreplay.com/the-ultimate-guide-to-getting-started-with-the-rollup-js-javascript-bundler)      
+
