@@ -48,7 +48,8 @@ module.exports = main;
 ## Rollup.js Options and Flags
 명령줄 옵션 중 중요한 것만. 
 
-
+* -c, --congif: 이 config file 사용한다. 이 아규먼트가 사용되고 값이 제공되지 않으면,rollup.config.js를 사용한다. 
+* -w, --watch: bundle에서 파일이 변화를 지켜보고, 변경시 리빌드한다.
 * --help (or -h): display Rollup.js help
 * --version (or -v): display the Rollup.js version number
 * --input <filename> (or -i): specify the entry script. This is not necessary because the file is usually defined as the first option.
